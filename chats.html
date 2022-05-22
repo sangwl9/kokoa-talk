@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chats - Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://previews.123rf.com/images/yupiramos/yupiramos1609/yupiramos160907701/62273625-%EB%85%B8%EB%9E%91-%ED%98%B8%EB%9E%91%EC%9D%B4-%EB%8F%99%EB%AC%BC-%EC%BA%90%EB%A6%AD%ED%84%B0-%EA%B7%80%EC%97%AC%EC%9A%B4-%EB%A7%8C%ED%99%94%EC%9E%85%EB%8B%88%EB%8B%A4-%EB%B2%A1%ED%84%B0-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8-%EB%A0%88%EC%9D%B4-%EC%85%98.jpg" class="user-component__avatar user-component__avatar"/>
+            <div class="user-component__text">
+              <h4 class="user-component__title">Nicolas</h4>
+              <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+              <span class="user-component__time">21:22</span>
+              <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+              <span class="nav__notification--sm badge badge--sm"></span>
+              <i class="fa-solid fa-ellipsis fa-2x"></i>
+            </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big ㅠㅠ</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ce7ca4a42d.js" crossorigin="anonymous"></script>
+  </body>
+</html>

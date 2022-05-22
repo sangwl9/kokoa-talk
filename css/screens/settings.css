@@ -1,0 +1,46 @@
+.settings-list {
+    overflow: auto;
+}
+
+.settings__setting {
+    padding: 20px 0px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting:not(:last-child){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__setting i {
+    margin-right: 20px;
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}
+
+.divide-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px 0px;
+}
+
+.new-mark {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: tomato;
+    border-radius: 15px;
+}
+
+.bottom-list {
+    margin-bottom: 80px;
+}
